@@ -47,13 +47,13 @@ const resolvers = {
 
     durationInSeconds: ({ length }) => {
       return length;
-    },
-    Module: {
-      durationInSeconds: ({ length }) => {
-        return length;
-      }
     }
   },
+  Module: {
+    durationInSeconds: ({ length }) => {
+      return length;
+    }
+  }
 };
 
 module.exports = resolvers;
